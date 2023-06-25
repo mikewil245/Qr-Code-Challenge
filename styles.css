@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D5E1EF;
+}
+
+.parent-container{
+    background-color: white;
+    max-width:320px;
+   height: 497px;
+   /*This made it center horizontally*/
+   position: absolute; 
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        /*and vertically*/
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+
+
+        
+        
+    }
+
+img{
+    width: 100%;
+    
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.content-container{
+    width: 90%;
+   margin: auto;
+   margin-top: 15px;
+   
+}
+
+.content-info{
+    text-align: center;
+
+}
+h2{
+    font-size: 22px;
+    color: #1F314F;
+    font-family: 'Outfit', sans-serif;
+    padding-top: 15px;
+}
+p{
+    font-size: 15px;
+    font-family: 'Outfit', sans-serif;
+    color: #7D889E;
+    padding-top: 15px;
+}
